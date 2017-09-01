@@ -6701,7 +6701,7 @@ class zabbixcli(cmd.Cmd):
                                 data = self.zapi.confimport(format=format,
                                                             source=import_data,
                                                             rules={
-                                                                'applications':{'createMissing':'true','updateExisting':'true'},
+                                                                'applications':{'createMissing':'true'},
                                                                 'discoveryRules':{'createMissing':'true','updateExisting':'true'},
                                                                 'graphs':{'createMissing':'true','updateExisting':'true'},
                                                                 'groups':{'createMissing':'true'},
@@ -6712,7 +6712,7 @@ class zabbixcli(cmd.Cmd):
                                                                 'screens':{'createMissing':'true','updateExisting':'true'},
                                                                 'templateLinkage':{'createMissing':'true'},
                                                                 'templates':{'createMissing':'true','updateExisting':'true'},
-                                                                'templateScreens':{'createMissing':'true'},
+                                                                'templateScreens':{'createMissing':'true','updateExisting':'true'},
                                                                 'triggers':{'createMissing':'true','updateExisting':'true'}
                                                             })    
                                 

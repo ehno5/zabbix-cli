@@ -6712,7 +6712,7 @@ class zabbixcli(cmd.Cmd):
                                                                 'screens':{'createMissing':'true','updateExisting':'true'},
                                                                 'templateLinkage':{'createMissing':'true'},
                                                                 'templates':{'createMissing':'true','updateExisting':'true'},
-                                                                'templateScreens':{'createMissing':'true','updateExisting':'true'},
+                                                                'templateScreens':{'createMissing':'true'},
                                                                 'triggers':{'createMissing':'true','updateExisting':'true'}
                                                             })    
                                 
